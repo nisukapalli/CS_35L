@@ -1,0 +1,36 @@
+Lab 2.1
+
+1. (expt 7 (expt 5 4))
+
+2. (ceiling (* (expt 5 4) (log 7 2)))
+
+3. C-h k C-h k outputs "C-h k runs the command describe-key." This happens because the "C-h k" entryunder the list of keybindings from C-h b includes a link to the describe-key command documentation, so C-h k is basically explaining itself.
+
+4. C-h k M-SPC outputs "M-SPC runs the command just-one-space."	This command deletes all whitespace around a point, leaving a single space character (or N spaces if specified). If N is negative, the newlines are deleted, leaving -N spaces. This happens because the M-SPC entry under the list of keybindings from C-h b includes a link to the just-one-space command documentation.
+
+5. The general way to do M-SPC is with the cycle-spacing function, which manipulates whitespace around a point in a smart way.
+
+
+Homework: Python Scripting
+
+1. /dev/null is an empty file, so there are no lines for randline.py to use. Output:
+
+[isukapal@lnxsrv13 ~/CS35L/Assignment2]$ python2 randline.py /dev/null
+Traceback (most recent call last):
+  File "randline.py", line 55, in <module>
+    main()
+  File "randline.py", line 49, in main
+    sys.stdout.write(generator.chooseline())
+  File "randline.py", line 19, in chooseline
+    return random.choice(self.lines)
+  File "/usr/lib64/python2.7/random.py", line 277, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+IndexError: list index out of range
+
+2. A syntax error occurs because exceptions are iterable in Python 2, but not in Python 3. Output:
+
+[isukapal@lnxsrv13 ~/CS35L/Assignment2]$ python3 randline.py /dev/null
+  File "/w/home.06/eng/ugrad/isukapal/CS35L/Assignment2/randline.py", line 50
+    except IOError as (errno, strerror):
+                      ^
+SyntaxError: invalid syntax

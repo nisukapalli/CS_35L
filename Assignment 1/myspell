@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tr -s '[:blank:]' '[\n*]' < /dev/stdin | sort -u | sort | comm -23 - sorted.words
