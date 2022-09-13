@@ -1,0 +1,5 @@
+I used the command:
+
+git --no-pager log --oneline --graph --decorate --ancestry-path v2.32.0^..c6fc44e9bf85dc02f6d33b11d9b5d1e10711d125 --pretty=format:'%Cred %d %C(yellow) %h %Cblue %as %Creset'
+
+This displayed a large tree of commits, starting from ebf3c04b26 (tag: v2.32.0), and ending at c6fc44e9bf (mergepoint M). The paths were color-coded, and tags on commits were colored red, while the commits themselves were yellow. I followed a path from v2.32.0 and reached 66262451ec (tag: v2.33.0-rc0), 2d755dfac9 (tag: v2.33.0-rc1), 5d213e46bb (tag: v2.32.0-rc2), 225bc32a98 (tag: v2.33.0), and af6d1d602a (tag: v2.33.1, maint). There were hundreds of other commits in between, but these commits were the only ones with tags. There were also direct paths from v2.32.0 to v2.33.0, and v2.32.0 to v2.33.1, without any commits in between. From v2.33.1, there was a path to 54c4f8ce52 and another path to 823b4281ca. Both of those commits eventually led to c6fc44e9bf (mergepoint M).

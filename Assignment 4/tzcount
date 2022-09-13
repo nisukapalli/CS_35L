@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+
+import sys
+
+lines = sys.stdin.readlines()
+tzs = []
+
+for l in lines:
+    if l.startswith('Date:'):
+        tzs.append(l[-6:-1])
+
+tzs.sort()
+sorted_tzs = []
+
+for i in reversed(range(len(tzs))):
+    if tzs[i].startswith('-'):
+        sorted_tzs.append(tzs[i])
+for i in range(len(tzs)):
+    if tzs[i].startswith('+'):
+        sorted_tzs.append(tzs[i])
+
+x = len(sorted_tzs) - 1
+i = 0
+while i < x:
+    count = 1;
+    while (i < x and sorted_tzs[i+1] == sorted_tzs[i]):
+        count += 1
+        i += 1
+    print(str(sorted_tzs[i]) + ' ' + str(count))
+    i += 1
+if (sorted_tzs[-1] != sorted_tzs[-2]):
+    print(str(sorted_tzs[-1] + ' 1'))

@@ -1,0 +1,22 @@
+I used the command 'git grep "Even Newspaper"' and got the output:
+
+
+northamerica:# and wrote "Even newspaper reports present contradictory information."
+
+
+This shows that the only occurrence of the sentence "Even newspaper reports present contradictory information." is in the file 'northamerica'.
+
+Then, I used the command 'git log -S "Even newspaper"' and got the output:
+
+
+commit c12b432741eed9a422fbf99fa27af6e7a941d88b
+Author: Arthur David Olson <ado@elsie>
+Date:   Thu Dec 21 11:43:42 1995 -0500
+
+    Eggert changes
+    
+    SCCS-file: northamerica
+    SCCS-SID: 7.20
+
+
+This commit is called "Eggert changes". It was committed by eggert and has hash c12b432741eed9a422fbf99fa27af6e7a941d88b. The sentence was authored by Arthur David Olson.

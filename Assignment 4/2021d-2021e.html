@@ -1,0 +1,1366 @@
+138c138
+<   <title>GitHub - eggert/tz at 2021e</title>
+---
+>   <title>GitHub - eggert/tz at 2021d</title>
+144,145c144,145
+<     <meta name="twitter:image:src" content="https://opengraph.githubassets.com/b03ad2f823139e21b853738aea3864f57900ab8e14047acd88ab3d9c4c2a0311/eggert/tz" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="GitHub - eggert/tz at 2021e" /><meta name="twitter:description" content="Time zone database and code. Contribute to eggert/tz development by creating an account on GitHub." />
+<     <meta property="og:image" content="https://opengraph.githubassets.com/b03ad2f823139e21b853738aea3864f57900ab8e14047acd88ab3d9c4c2a0311/eggert/tz" /><meta property="og:image:alt" content="Time zone database and code. Contribute to eggert/tz development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="GitHub - eggert/tz at 2021e" /><meta property="og:url" content="https://github.com/eggert/tz" /><meta property="og:description" content="Time zone database and code. Contribute to eggert/tz development by creating an account on GitHub." />
+---
+>     <meta name="twitter:image:src" content="https://opengraph.githubassets.com/b03ad2f823139e21b853738aea3864f57900ab8e14047acd88ab3d9c4c2a0311/eggert/tz" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="GitHub - eggert/tz at 2021d" /><meta name="twitter:description" content="Time zone database and code. Contribute to eggert/tz development by creating an account on GitHub." />
+>     <meta property="og:image" content="https://opengraph.githubassets.com/b03ad2f823139e21b853738aea3864f57900ab8e14047acd88ab3d9c4c2a0311/eggert/tz" /><meta property="og:image:alt" content="Time zone database and code. Contribute to eggert/tz development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="GitHub - eggert/tz at 2021d" /><meta property="og:url" content="https://github.com/eggert/tz" /><meta property="og:description" content="Time zone database and code. Contribute to eggert/tz development by creating an account on GitHub." />
+155c155
+<   <meta name="request-id" content="99C8:3493:18CDF:21899:6206AFD1" data-pjax-transient="true"/><meta name="html-safe-nonce" content="ed1371986cb8a45508f18b83923dfc3dce341366f2f106eadb1e6b3e589d4f67" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5OUM4OjM0OTM6MThDREY6MjE4OTk6NjIwNkFGRDEiLCJ2aXNpdG9yX2lkIjoiMTEwMDk5NzcwMjkwNjQ2OTkzIiwicmVnaW9uX2VkZ2UiOiJzZWEiLCJyZWdpb25fcmVuZGVyIjoic2VhIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="bc3ab0b5f280061289f0a5264bbb2705dc2c0f007f09a359ab52083c7a489053" data-pjax-transient="true"/>
+---
+>   <meta name="request-id" content="99CE:1A04:337CD:3D36F:6206AFE9" data-pjax-transient="true"/><meta name="html-safe-nonce" content="8717e845bfdb59b7581235f0a020db9ac2c6761f7899769cccb48a3c45e6a242" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5OUNFOjFBMDQ6MzM3Q0Q6M0QzNkY6NjIwNkFGRTkiLCJ2aXNpdG9yX2lkIjoiMTA5OTU5NTM5NDE2Nzc3OTMwNSIsInJlZ2lvbl9lZGdlIjoic2VhIiwicmVnaW9uX3JlbmRlciI6InNlYSJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="526c32f7f0ca5c851645d5ad1a2853a1fb5817aef644619cf55d457e8d937df5" data-pjax-transient="true"/>
+211c211
+<     <link rel="canonical" href="https://github.com/eggert/tz/tree/2021e" data-pjax-transient>
+---
+>     <link rel="canonical" href="https://github.com/eggert/tz/tree/2021d" data-pjax-transient>
+262c262
+<               data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e76873996e2444383e353f43bb8b5ad722ebf4dd709eb8f3c3e2b218803395ad"
+---
+>               data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a32e340a2ebacc2cbe348805b29e1cfe10ddd99641e53d504f07d641d2baa9a4"
+291c291
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Features;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="58ee38a880216805d633b1f2bd60d8beb6ffce372112da247d2e3b4b537e18a4" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Features;&quot;}" href="/features">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Features;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="daf65ea1a8d4e5f178e0a84defe900c8cacbb7b73d7b16fa6c00cdca2fd7dd00" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Features;&quot;}" href="/features">
+296c296
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Mobile;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fb0dc7d2e7f94c1a5ccdcffd5b18ee4086d2b9fc9677774f0b54a32c907e1984" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Mobile;&quot;}" href="/mobile">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Mobile;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="314cf93c7cd8387bfa7a24cec91e260911a46d0f8ef76722a201dcefa613b30e" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Mobile;&quot;}" href="/mobile">
+301c301
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Actions;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cd101243af6ccd9bf90bd58b4e2486778c0fdc996ac798771b646be16f70cdab" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Actions;&quot;}" href="/features/actions">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Actions;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="79678443ad234647068254affee4c2fd7c1d8e4c83f8b0ee8250d615c550801b" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Actions;&quot;}" href="/features/actions">
+306c306
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Codespaces;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f12d9d14b27986b0a492cd07e7a68e361c84c53d2a118f051eb67430e368603a" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Codespaces;&quot;}" href="/features/codespaces">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Codespaces;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="810903a720bf3007194cb95133c3b37c644243f18d2d612e6a68975d07228c31" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Codespaces;&quot;}" href="/features/codespaces">
+311c311
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Packages;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e5cd9fc4c8ac7f7c092478581c98cf10d41dbe4cbc48e6423678da567acd8e2e" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Packages;&quot;}" href="/features/packages">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Packages;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2a5141e21b5352386d6632a2e83339a856e880c6f07348e2dae04bbe0b02635a" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Packages;&quot;}" href="/features/packages">
+316c316
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Security;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0092b9fe0265266de6e60cd3b3ce8f6cf6d809546754f86a71d857c2a20f32b0" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Security;&quot;}" href="/features/security">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Security;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3f1709ab4ee14845d8dd99aef7b1e73f2812e9246963213a0253e68cf2abfead" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Security;&quot;}" href="/features/security">
+321c321
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Code review;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="23eec9be75408463d8abed827e0408d798e125c3d0fb8d141bad91ec6f5f17b6" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Code review;&quot;}" href="/features/code-review">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Code review;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a1d0de39ab63d3b70c5977d3cc39a5a514fd5a592337d5fc9a7341d5598eb063" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Code review;&quot;}" href="/features/code-review">
+326c326
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Issues;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f9da57e1edd398cf829d063f40f4614f51cf82cbb8a3677b256f0363b9a21f20" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Issues;&quot;}" href="/features/issues">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Issues;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="96bbdb89833681b609663746a904546b632eed15107c0da5db6aceede63e62b7" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Issues;&quot;}" href="/features/issues">
+331c331
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Integrations;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="792678850b34ace4631bbf8af001df6b5f065b9c36d22661acbf5ce98ef3f0c2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Integrations;&quot;}" href="/features/integrations">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Integrations;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1ad577cde0a8fbbaff2f1ab09250a35b9fdfecd7b28be3c906e6f45bb9ea3782" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Integrations;&quot;}" href="/features/integrations">
+336c336
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:GitHub Sponsors;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6d3366f84a34fb50720afdb065970c9fba0de2f470250d7c7626ea98b8120257" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:GitHub Sponsors;&quot;}" href="/sponsors">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:GitHub Sponsors;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="12d3b201ff5a696f2c328c7c4688557f05a01bf1f57932a6ecb915d068751d5b" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:GitHub Sponsors;&quot;}" href="/sponsors">
+341c341
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Customer stories;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1434054d2e32cd516edebb5fdc28697a646569218c5b94d3c40fd9f8becc2e4b" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Customer stories;&quot;}" href="/customer-stories">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Customer stories;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ec9c879f05db502c3e2a91dc19286e1499931b09ab6438ef5ce79596bf9c44e8" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Why GitHub?&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Customer stories;&quot;}" href="/customer-stories">
+352c352
+<     <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Team;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c37735419bfeb67e497f42f1212828f7f603463b0f991e6afddece6ab2104af9" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Team;&quot;}" href="/team">Team</a>
+---
+>     <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Team;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="abd937510fb4b18fa83bae9a6c5e2b8366530c17e2f1993a88534f95fe828af5" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Team;&quot;}" href="/team">Team</a>
+356c356
+<     <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Enterprise;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="303c126831088fa6d6a92301e7ad57e59d3a1ae121b79cc565957126b4f14199" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Enterprise;&quot;}" href="/enterprise">Enterprise</a>
+---
+>     <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Enterprise;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2f612ea5f587822a9bbb91ef2a78c5301447cff2bec27422a9bb89648df3437e" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Enterprise;&quot;}" href="/enterprise">Enterprise</a>
+369c369
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Explore GitHub;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="dd7d580d0fbb9b3b8101252999caf027bdbd4747ef182ff4104b1a45e346eaf4" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Explore GitHub;&quot;}" href="/explore">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Explore GitHub;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f71ccb71836aff116c722799d9e4c79c40ff1825de8412a071aee340e1260d8d" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Explore GitHub;&quot;}" href="/explore">
+376c376
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Topics;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="303d7faab6a343f17e77f1d53929aedcd1f4eada78c4f8f292ed8ad44eb6aa98" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Topics;&quot;}" href="/topics">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Topics;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="20710499aa6f094e72f9888bcefe06f220b62d210e2e8f5edec7e4502a69a81a" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Topics;&quot;}" href="/topics">
+381c381
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Collections;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6a7c8cb8fed095e50d62a74f3ea4e8a172a31744c48bee07c151270581cb13b6" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Collections;&quot;}" href="/collections">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Collections;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a60d9d5ae983d2355adb89f19132cb2fd1bac216f269d88b46920dc263176d8e" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Collections;&quot;}" href="/collections">
+386c386
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Trending;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1e9e276110e9fce221d1851e6309a760b5400855ae9337d8d7877073cd8762ed" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Trending;&quot;}" href="/trending">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Trending;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="58c9a9a4e517aa0c28b3006d7ece8fe4d0e727039cf8e8fedf8f0981543733ce" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Trending;&quot;}" href="/trending">
+391c391
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Learning Lab;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="894b814d790b5120fa276a616468614c6be5156aa2ba23df51fb9d6c2414968c" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Learning Lab;&quot;}" href="https://lab.github.com/">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Learning Lab;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="08881eae51c89ba50b1636681eea91ccd671dadda2f96f8457cbacc128ef23c4" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Learning Lab;&quot;}" href="https://lab.github.com/">
+396c396
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Open source guides;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5ad7074088b9579c246e90b7bf38707432aa9fb0f594a6646e3cd87e95a894f8" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Open source guides;&quot;}" href="https://opensource.guide">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Open source guides;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6c4fcacc0bab812d60da07c39fa478276379f1564bfef8c68996a5ddc97827f2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Open source guides;&quot;}" href="https://opensource.guide">
+403c403
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:The ReadME Project;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="704a2c685f5c6575cae84331e41e81a54e18678ebea193a93b4449666d930751" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:The ReadME Project;&quot;}" href="/readme">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:The ReadME Project;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="15dc24e69f6511e704e2589056e0986683bda168f177a6148bc738341bbe3cbc" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:The ReadME Project;&quot;}" href="/readme">
+408c408
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Events;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4972a82b8539254ce85310063d35c2c8f6529a968c96cc4398f6602a282e0003" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Events;&quot;}" href="/events">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Events;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="44282c354f5f4313694f86f8f523248afc8c1dfe45593b9d08e6222e312b7aaf" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Events;&quot;}" href="/events">
+413c413
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Community forum;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9cfe6e9aa8f73a11a9575defc247a9dd52b0faeeede6c39e03ffb39edb01c55b" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Community forum;&quot;}" href="https://github.community">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Community forum;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a042a3059788d11c8d5322483e384cc950b570c301ba9a8bb5e7561932d95b60" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Community forum;&quot;}" href="https://github.community">
+418c418
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:GitHub Education;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5205f883f9d6830b40d15ae9ce78fcd7bead2143d10c67195f7d002d23ee8198" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:GitHub Education;&quot;}" href="https://education.github.com">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:GitHub Education;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a93c5d471d3a82e53a751b29c2318cec1465d6fe52f74c7d22b0b734b183806f" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:GitHub Education;&quot;}" href="https://education.github.com">
+423c423
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:GitHub Stars program;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="544bd316bf2d9eed776a9745150a4fdc6c81935809ff91923922b12c4e69ebab" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:GitHub Stars program;&quot;}" href="https://stars.github.com">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:GitHub Stars program;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3b815878530903804a98c5ed4c9a335d388f615452b34f4b305c1e48c741cdc0" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:GitHub Stars program;&quot;}" href="https://stars.github.com">
+434c434
+<     <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Marketplace;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a3a531f27d8a6cffb9d7fc8fbeb9d4d846aa3e8b211b0e04778587a930ad775c" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Marketplace;&quot;}" href="/marketplace">Marketplace</a>
+---
+>     <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Marketplace;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6273b18a39e86884b4e954fa72a9b579453076e5400268104eca2e5cbd2831b6" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Marketplace;&quot;}" href="/marketplace">Marketplace</a>
+447c447
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Plans;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7a076b1ce1779553853975155801e0e26e0c1fd2b4f8a8417f4959afb5d37c82" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Plans;&quot;}" href="/pricing">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Plans;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1fdebf7a2ed652205fc640815d509285699141ef4d34eb40cd18223238d160ed" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Plans;&quot;}" href="/pricing">
+452c452
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Compare plans;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f4c9679066a1f9ef0e6ca795653b5587feff61901a2c015760d380a04003becb" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Compare plans;&quot;}" href="/pricing#compare-features">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Compare plans;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="394b6b6049f91273368b7547c0362af15d742794a479b8670e6b8b1d26b664c3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Compare plans;&quot;}" href="/pricing#compare-features">
+457c457
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Contact Sales;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b9b918bf730b7cb70df75b79f5323e917a469074f115331058c65663fac85e15" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Contact Sales;&quot;}" href="https://github.com/enterprise/contact">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Contact Sales;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7bece07368c1949d8b0d4713157cfb467aaded336c71eb59cfe87fd15c027228" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Contact Sales;&quot;}" href="https://github.com/enterprise/contact">
+462c462
+<     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Education;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="57fcbab3a885b64d8112c2603e7aa3d2d254ef318654afba988e89be2876a8b6" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021e;ref_cta:Education;&quot;}" href="https://education.github.com">
+---
+>     <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Education;&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e6ef8a7f8d6eaf9265fc8c10720712582fde61c4b29d20bd4659c2ec4e3a9542" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/eggert/tz/tree/2021d;ref_cta:Education;&quot;}" href="https://education.github.com">
+504c504
+<         <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="UIML+uU2C7dS73SP1LMCdYsTx1yUKBpa5APpt7M5y+LiXg2byWrrRY/hlEXLcLinj+vI0Qlp0dJ7qq6HINcy3A==" />
+---
+>         <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="OnSlTNpfXMWKlzZcFLjilX2Th/a7RwOhoZd19eLi039mv5Al43W6SzsxZ+oKUldEwwdx3GZ0tdgZdn4of5ERiA==" />
+684c684
+<           <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Feggert%2Ftz%2Ftree%2F2021e"
+---
+>           <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Feggert%2Ftz%2Ftree%2F2021d"
+686c686
+<             data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9d982a8c7b4317d1c4951e97ed59b6b4706092fffdc7a11b7b74a2ab72729ce1"
+---
+>             data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e04de502e9c82e2ed57c931ea046e34c0dceb774a5ce1655ebe60ecf361044c1"
+694,695c694,695
+<             data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9d982a8c7b4317d1c4951e97ed59b6b4706092fffdc7a11b7b74a2ab72729ce1"
+<             data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/files/disambiguate;ref_cta:Sign up;ref_loc:header logged out&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="70db4f07c4aeb34127e66e5e3e04d41720c00fe42b28a6a8b879cd0bf7c4afcb" data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/files/disambiguate;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+---
+>             data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e04de502e9c82e2ed57c931ea046e34c0dceb774a5ce1655ebe60ecf361044c1"
+>             data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/files/disambiguate;ref_cta:Sign up;ref_loc:header logged out&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c06331a0dc53e710047272f8c08eeec519a660a1a97e27cb4ca843486194464a" data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/files/disambiguate;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+789c789
+<       <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="542afdf5f08e47896b7a29f5f1ed241b2689315ea30561a966fac4d362ecafff" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
+---
+>       <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="625f68e0b6d27261f051df7a5bcedc212689786d479bf71d0a1ae39e66e308f2" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
+796c796
+<         <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:5092588,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d13f5658aa0ba66d07f084692e6b5dd467d355c9ec2f4a4fafadbb3a42079cce" aria-label="You must be signed in to fork a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+---
+>         <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:5092588,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8ab56d67ed2d54c5d5bb45c45396f5570da61cb1254fa1061a46d8509da4795a" aria-label="You must be signed in to fork a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+805c805
+<       <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:5092588,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cd2a21be2e503e665952ef84b2af63f91a9288e8a75d2799e8d4904c236b9b55" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
+---
+>       <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:5092588,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2ac0acfed2b0588c1ff73dd4ea766b0f846805abe703ab2e34b21bdaa046da6f" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
+862c862
+<       <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:5092588,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="cd2a21be2e503e665952ef84b2af63f91a9288e8a75d2799e8d4904c236b9b55" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn btn-block BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
+---
+>       <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:5092588,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2ac0acfed2b0588c1ff73dd4ea766b0f846805abe703ab2e34b21bdaa046da6f" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn btn-block BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
+873c873
+<           <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="542afdf5f08e47896b7a29f5f1ed241b2689315ea30561a966fac4d362ecafff" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn btn-block">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
+---
+>           <a href="/login?return_to=%2Feggert%2Ftz" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="625f68e0b6d27261f051df7a5bcedc212689786d479bf71d0a1ae39e66e308f2" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn btn-block">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
+889c889
+<   <a id="code-tab" href="/eggert/tz/tree/2021e" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /eggert/tz/tree/2021e" data-pjax="#repo-content-pjax-container" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+---
+>   <a id="code-tab" href="/eggert/tz/tree/2021d" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /eggert/tz/tree/2021d" data-pjax="#repo-content-pjax-container" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+948c948
+<                   <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /eggert/tz/tree/2021e" href="/eggert/tz/tree/2021e">
+---
+>                   <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /eggert/tz/tree/2021d" href="/eggert/tz/tree/2021d">
+1003c1003
+<   <include-fragment src="/eggert/tz/spoofed_commit_check/b102002e5300d94c369796d5b70bae22b5af720d" data-test-selector="spoofed-commit-check"></include-fragment>
+---
+>   <include-fragment src="/eggert/tz/spoofed_commit_check/4de3d7f2499328c97e652242a36fed9523741d12" data-test-selector="spoofed-commit-check"></include-fragment>
+1018c1018
+<       <span class="css-truncate-target" data-menu-button>2021e</span>
+---
+>       <span class="css-truncate-target" data-menu-button>2021d</span>
+1065c1065
+<             current-committish="MjAyMWU="
+---
+>             current-committish="MjAyMWQ="
+1117c1117
+<             current-committish="MjAyMWU="
+---
+>             current-committish="MjAyMWQ="
+1181c1181
+<   <include-fragment data-test-selector="overview-actions-fragment" src="/eggert/tz/overview_actions/2021e"></include-fragment>
+---
+>   <include-fragment data-test-selector="overview-actions-fragment" src="/eggert/tz/overview_actions/2021d"></include-fragment>
+1192c1192
+<       <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:5092588,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a760c2ae6eeecfa02e243b462aea0bea68c7f1cb2b678e99a263a020c6b7a639" data-view-component="true" class="btn-primary btn">  Code<span class="dropdown-caret"></span>
+---
+>       <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:5092588,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fba967913ecacdfac6883803651d041810faf21c4fd43e79ff9bbcea51e9c306" data-view-component="true" class="btn-primary btn">  Code<span class="dropdown-caret"></span>
+1196c1196
+<                 src="/eggert/tz/code_menu_contents/2021e"
+---
+>                 src="/eggert/tz/code_menu_contents/2021d"
+1220c1220
+<       <include-fragment src="/eggert/tz/tree-commit/b102002e5300d94c369796d5b70bae22b5af720d" class="d-flex flex-auto flex-items-center" aria-busy="true" aria-label="Loading latest commit">
+---
+>       <include-fragment src="/eggert/tz/tree-commit/4de3d7f2499328c97e652242a36fed9523741d12" class="d-flex flex-auto flex-items-center" aria-busy="true" aria-label="Loading latest commit">
+1227c1227
+<             <a data-pjax="#repo-content-pjax-container" href="/eggert/tz/commits/2021e" class="pl-3 pr-3 py-3 p-md-0 mt-n3 mb-n3 mr-n3 m-md-0 Link--primary no-underline no-wrap">
+---
+>             <a data-pjax="#repo-content-pjax-container" href="/eggert/tz/commits/2021d" class="pl-3 pr-3 py-3 p-md-0 mt-n3 mb-n3 mr-n3 m-md-0 Link--primary no-underline no-wrap">
+1232,1233c1232,1233
+<                     <strong>4,776</strong>
+<                     <span aria-label="Commits on 2021e" class="color-fg-muted d-none d-lg-inline">
+---
+>                     <strong>4,773</strong>
+>                     <span aria-label="Commits on 2021d" class="color-fg-muted d-none d-lg-inline">
+1247,1248c1247
+<   <include-fragment src="/eggert/tz/file-list/2021e">
+<       <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/eggert/tz/tree/b102002e5300d94c369796d5b70bae22b5af720d">Permalink</a>
+---
+>     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/eggert/tz/tree/4de3d7f2499328c97e652242a36fed9523741d12">Permalink</a>
+1276c1275
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".gitignore" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/.gitignore">.gitignore</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".gitignore" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/.gitignore">.gitignore</a></span>
+1280c1279,1284
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Ignore more non-source files
+> 
+> * .gitignore: Ignore *.diff, *.i, *.orig, *.rej, *.tar.
+> Ignore check_* files, as they are created by ‘make check’." class="Link--secondary" href="/eggert/tz/commit/0b0735c8ddaeaa338c92784b17791c182b58eb7d">Ignore more non-source files</a>
+>               </span>
+1284c1288
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2019-05-16T22:48:38Z" data-view-component="true" class="no-wrap">May 16, 2019</time-ago>
+1296c1300
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="CONTRIBUTING" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/CONTRIBUTING">CONTRIBUTING</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="CONTRIBUTING" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/CONTRIBUTING">CONTRIBUTING</a></span>
+1300c1304,1306
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="* CONTRIBUTING, NEWS: Mention SECURITY." class="Link--secondary" href="/eggert/tz/commit/80af1c6b21510ea914cdf47db73789c7d071a372">* CONTRIBUTING, NEWS: Mention SECURITY.</a>
+>               </span>
+1304c1310
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-04-20T07:04:47Z" data-view-component="true" class="no-wrap">Apr 20, 2021</time-ago>
+1316c1322
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="LICENSE" data-pjax="#repo-content-pjax-container" itemprop="license" href="/eggert/tz/blob/2021e/LICENSE">LICENSE</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="LICENSE" data-pjax="#repo-content-pjax-container" itemprop="license" href="/eggert/tz/blob/2021d/LICENSE">LICENSE</a></span>
+1320c1326,1331
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Clarify LICENSE file
+> 
+> * LICENSE: Reword LICENSE so that it makes sense when only data
+> files are distributed." class="Link--secondary" href="/eggert/tz/commit/7097a652778d35acf747d14f8bf7b3ced479bbc0">Clarify LICENSE file</a>
+>               </span>
+1324c1335
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2017-05-25T15:44:33Z" data-view-component="true" class="no-wrap">May 25, 2017</time-ago>
+1336c1347
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="Makefile" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/Makefile">Makefile</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="Makefile" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/Makefile">Makefile</a></span>
+1340c1351,1360
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Distribute SECURITY in release tarballs
+> 
+> Problem reported by Andreas Radke in:
+> https://mm.icann.org/pipermail/tz/2021-September/030770.html
+> Also, SECURITY should be treated like README when checking
+> character sets and version dependencies.
+> * Makefile (COMMON, VERSION_DEPS, check_character_set):
+> Treat SECURITY like README." class="Link--secondary" href="/eggert/tz/commit/79f5ac00792edf99c8c06ebd908a5054c9e9e5b2">Distribute SECURITY in release tarballs</a>
+>               </span>
+1344c1364
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-25T14:47:39Z" data-view-component="true" class="no-wrap">Sep 25, 2021</time-ago>
+1356c1376
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="NEWS" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/NEWS">NEWS</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="NEWS" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/NEWS">NEWS</a></span>
+1360c1380,1384
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Release 2021d
+> 
+> * NEWS: Increase version to 2021d." class="Link--secondary" href="/eggert/tz/commit/4de3d7f2499328c97e652242a36fed9523741d12">Release 2021d</a>
+>               </span>
+1364c1388
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-10-15T20:49:06Z" data-view-component="true" class="no-wrap">Oct 15, 2021</time-ago>
+1376c1400
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="README" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/README">README</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="README" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/README">README</a></span>
+1380c1404,1406
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="* README: Add a pointer to tz-how-to.html." class="Link--secondary" href="/eggert/tz/commit/243321439b4f47dbc6981c990fa6eb3b94a01e98">* README: Add a pointer to tz-how-to.html.</a>
+>               </span>
+1384c1410
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-08-19T03:47:17Z" data-view-component="true" class="no-wrap">Aug 19, 2020</time-ago>
+1396c1422
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="SECURITY" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/SECURITY">SECURITY</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="SECURITY" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/SECURITY">SECURITY</a></span>
+1400c1426,1428
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="* SECURITY: New file." class="Link--secondary" href="/eggert/tz/commit/474865615f4ab0dffe0f47203dd2b49c094b2248">* SECURITY: New file.</a>
+>               </span>
+1404c1432
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-04-20T07:00:06Z" data-view-component="true" class="no-wrap">Apr 20, 2021</time-ago>
+1416c1444
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="africa" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/africa">africa</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="africa" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/africa">africa</a></span>
+1420c1448,1460
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Revert most 2021b changes to &#39;backward&#39;
+> 
+> Revert almost all of 2021b&#39;s changes to the &#39;backward&#39; file,
+> by moving Link directives back to where they were in 2021a.
+> This reverts a maintenance change that ran into problems with
+> Joda-Time.  Problem reported by Stephen Colebourne in:
+> https://mm.icann.org/pipermail/tz/2021-September/030820.html
+> * NEWS: Mention this.
+> * africa, asia, australasia, europe, northamerica, southamerica:
+> Move several links to these files, from ...
+> * backward: ... this file." class="Link--secondary" href="/eggert/tz/commit/7483e30bc7381f940e8ec0b4fadce9749f5ffdd6">Revert most 2021b changes to 'backward'</a>
+>               </span>
+1424c1464
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-29T08:43:52Z" data-view-component="true" class="no-wrap">Sep 29, 2021</time-ago>
+1436c1476
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="antarctica" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/antarctica">antarctica</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="antarctica" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/antarctica">antarctica</a></span>
+1440c1480,1499
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Revert most of the recent alike-since-1970 changes
+> 
+> This reverts most proposed changes that merged all Zones agreeing
+> since 1970, as concerns were raised about doing too many of these
+> changes at once.  It does keeps some of these changes in the
+> interest of making tzdb more equitable one step at a time.
+> * NEWS: Mention this and adjust change announcement.
+> * africa (Indian/Reunion, Indian/Mahe):
+> * antarctica (Indian/Kerguelen, Antarctica/Vostok):
+> * asia (Asia/Brunei, Asia/Kuala_Lumpur):
+> * australasia (Indian/Christmas, Indian/Cocos, Pacific/Majuro)
+> (Pacific/Chuuk, Pacific/Pohnpei, Pacific/Funafuti, Pacific/Wake)
+> (Pacific/Wallis):
+> * europe (Europe/Copenhagen, Atlantic/Reykjavik)
+> (Europe/Luxembourg, Europe/Monaco, Europe/Amsterdam, Europe/Oslo)
+> (Europe/Stockholm):
+> Move these Zones (and associated Rules) back from ‘backzone’.
+> * backward, backzone, zone1970.tab: Adjust to match these moves." class="Link--secondary" href="/eggert/tz/commit/a82f026448437133ff8ff0e8977c9b46d14c3dcb">Revert most of the recent alike-since-1970 changes</a>
+>               </span>
+1444c1503
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-24T23:40:29Z" data-view-component="true" class="no-wrap">Sep 24, 2021</time-ago>
+1456c1515
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="asctime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/asctime.c">asctime.c</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="asctime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/asctime.c">asctime.c</a></span>
+1460c1519,1521
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Update and/or clean up POSIX version info" class="Link--secondary" href="/eggert/tz/commit/7b01a16d754a840cb70035c95cdd4f066646c38b">Update and/or clean up POSIX version info</a>
+>               </span>
+1464c1525
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2018-04-15T18:02:54Z" data-view-component="true" class="no-wrap">Apr 15, 2018</time-ago>
+1476c1537
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="asia" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/asia">asia</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="asia" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/asia">asia</a></span>
+1480c1541,1553
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Revert most 2021b changes to &#39;backward&#39;
+> 
+> Revert almost all of 2021b&#39;s changes to the &#39;backward&#39; file,
+> by moving Link directives back to where they were in 2021a.
+> This reverts a maintenance change that ran into problems with
+> Joda-Time.  Problem reported by Stephen Colebourne in:
+> https://mm.icann.org/pipermail/tz/2021-September/030820.html
+> * NEWS: Mention this.
+> * africa, asia, australasia, europe, northamerica, southamerica:
+> Move several links to these files, from ...
+> * backward: ... this file." class="Link--secondary" href="/eggert/tz/commit/7483e30bc7381f940e8ec0b4fadce9749f5ffdd6">Revert most 2021b changes to 'backward'</a>
+>               </span>
+1484c1557
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-29T08:43:52Z" data-view-component="true" class="no-wrap">Sep 29, 2021</time-ago>
+1496c1569
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="australasia" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/australasia">australasia</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="australasia" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/australasia">australasia</a></span>
+1500c1573,1580
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Fiji suspends DST for the 2021/2022 season
+> 
+> (Thanks to Jashneel Kumar and P Chan.)
+> * NEWS: Mention this.
+> * australasia (Fiji): Suspend DST for 2021/2022.  For now, assume it
+> will resume for 2022/2023 with the pre-2020 rules." class="Link--secondary" href="/eggert/tz/commit/f74940d9686a8179c9c99ed8b30ab736e1a0be1f">Fiji suspends DST for the 2021/2022 season</a>
+>               </span>
+1504c1584
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-10-11T17:57:17Z" data-view-component="true" class="no-wrap">Oct 11, 2021</time-ago>
+1516c1596
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="backward" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/backward">backward</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="backward" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/backward">backward</a></span>
+1520c1600,1612
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Revert most 2021b changes to &#39;backward&#39;
+> 
+> Revert almost all of 2021b&#39;s changes to the &#39;backward&#39; file,
+> by moving Link directives back to where they were in 2021a.
+> This reverts a maintenance change that ran into problems with
+> Joda-Time.  Problem reported by Stephen Colebourne in:
+> https://mm.icann.org/pipermail/tz/2021-September/030820.html
+> * NEWS: Mention this.
+> * africa, asia, australasia, europe, northamerica, southamerica:
+> Move several links to these files, from ...
+> * backward: ... this file." class="Link--secondary" href="/eggert/tz/commit/7483e30bc7381f940e8ec0b4fadce9749f5ffdd6">Revert most 2021b changes to 'backward'</a>
+>               </span>
+1524c1616
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-29T08:43:52Z" data-view-component="true" class="no-wrap">Sep 29, 2021</time-ago>
+1536c1628
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="backzone" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/backzone">backzone</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="backzone" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/backzone">backzone</a></span>
+1540c1632,1640
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Add America/Virgin link in ‘backzone’
+> 
+> This problem predates 2021a, so it’s independent of the
+> 2021a-to-2021b changes.  Problem reported by Michael Deckers in:
+> https://mm.icann.org/pipermail/tz/2021-September/030792.html
+> * backzone: Add link from America/St_Thomas to America/Virgin,
+> overriding what’s in ‘backward’." class="Link--secondary" href="/eggert/tz/commit/6c15079a0fa34a879639e0f9baab92a472ef63a0">Add America/Virgin link in ‘backzone’</a>
+>               </span>
+1544c1644
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-26T23:36:00Z" data-view-component="true" class="no-wrap">Sep 26, 2021</time-ago>
+1556c1656
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="calendars" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/calendars">calendars</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="calendars" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/calendars">calendars</a></span>
+1560c1660,1674
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Convert Theory file to HTML
+> 
+> * calendars: New file, containing the calendars section of what
+> used to be the Theory file.
+> * theory.html: New file, containing the HTMLized equivalent of
+> the non-calendar part of ...
+> * Theory: ... this file, which was removed.  Only formatting
+> was changed, aside from moving the calendrical section to the
+> new file &#39;calendars&#39;.
+> * CONTRIBUTING, zone1970.tab:
+> * Makefile (COMMON, VERSION_DEPS): Adjust to move.
+> * NEWS: Document the move.
+> * tz-link.htm: Link to new file." class="Link--secondary" href="/eggert/tz/commit/4b7fad3a95ee27655eef0d23c08aaa1c236ab7f6">Convert Theory file to HTML</a>
+>               </span>
+1564c1678
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2017-10-02T00:23:52Z" data-view-component="true" class="no-wrap">Oct 2, 2017</time-ago>
+1576c1690
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="checklinks.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/checklinks.awk">checklinks.awk</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="checklinks.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/checklinks.awk">checklinks.awk</a></span>
+1580c1694,1717
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Shrink tzdata.zi somewhat
+> 
+> Without this change, tzdata source&#39;s 669742 bytes (180832 bytes
+> compressed) shrank to tzdata.zi&#39;s 123627 bytes (22247 bytes compressed).
+> With this change, tzdata.zi is 106273 bytes (21203 bytes compressed).
+> That is, the change&#39;s data compression ratio is about 1.16 (1.05 for
+> compressed data), and the total data compression ratio of tzdata.zi is
+> now about 6.3 (8.5 for compressed data).  These figures assume
+> lzip -9 compression.
+> * Makefile (tzdata.zi): Do not set the Awk PACKRATDATA var,
+> as zishrink.awk now handles duplicates directly.
+> * Makefile (zonenames, $(TZS_NEW)):
+> * checklinks.awk:
+> Work even when line codes are abbreviated.
+> * zishrink.awk (paw_through_packratdata): Remove; no longer needed.
+> Caller removed.
+> (gen_rule_name, output_saved_lines): New functions.
+> (process_input_line): Use it to abbreviate rule names.
+> Abbreviate line codes and &quot;max&quot; too.  Save output lines
+> instead of printing them immediately, so that later output
+> lines can supersede earlier.
+> (END): Output saved lines." class="Link--secondary" href="/eggert/tz/commit/ebaf3a0f8fc2a3c856c8c191ed2a09a2a8c4e8dd">Shrink tzdata.zi somewhat</a>
+>               </span>
+1584c1721
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2017-06-02T19:45:39Z" data-view-component="true" class="no-wrap">Jun 2, 2017</time-ago>
+1596c1733
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="checktab.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/checktab.awk">checktab.awk</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="checktab.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/checktab.awk">checktab.awk</a></span>
+1600c1737,1750
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Revert May patch to zone.tab
+> 
+> This reverts the part of May’s “Merge timezones that are alike
+> since 1970” patch that affected the zone.tab file, to avoid
+> compatibility issues for Android mentioned by Almaz Mingaleev in:
+> https://mm.icann.org/pipermail/tz/2021-September/030387.html
+> * Makefile (check_tables): Allow zone.tab TZ values to be
+> taken from &#39;backward&#39;.
+> * checktab.awk: Do not report an error for links in &#39;backward&#39;
+> that do not have zone.tab entries.
+> * zone.tab: Revert the remaining part of May’s “Merge timezones
+> that are alike since 1970” patch to this file." class="Link--secondary" href="/eggert/tz/commit/70676ba074e29316d03c510e5d076352b020712d">Revert May patch to zone.tab</a>
+>               </span>
+1604c1754
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-20T16:28:39Z" data-view-component="true" class="no-wrap">Sep 20, 2021</time-ago>
+1616c1766
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="date.1" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/date.1">date.1</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="date.1" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/date.1">date.1</a></span>
+1620c1770,1775
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Use bold for command and func names in man pages
+> 
+> This seems to be the modern style.
+> Problem reported by Michael Kerrisk (for GNU/Linux man pages)." class="Link--secondary" href="/eggert/tz/commit/402965e639e89b3bdad2cc9ed36451f466766edb">Use bold for command and func names in man pages</a>
+>               </span>
+1624c1779
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-04-27T06:39:52Z" data-view-component="true" class="no-wrap">Apr 27, 2020</time-ago>
+1636c1791
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="date.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/date.c">date.c</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="date.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/date.c">date.c</a></span>
+1640c1795,1809
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Port to platforms where malloc does not set errno
+> 
+> Problem reported via clang by Jan Engelhardt in:
+> https://mm.icann.org/pipermail/tz/2021-August/030319.html
+> * date.c (dogmt):
+> * localtime.c (tzload, tzalloc) [!HAVE_MALLOC_ERRNO]:
+> * zdump.c (xmalloc):
+> * zic.c (memcheck):
+> Don’t assume failing malloc sets errno.
+> * private.h (HAVE_MALLOC_ERRNO): Default to 1.
+> (EINVAL): Default to ERANGE since even C89 requires ERANGE.
+> This is probably just theoretical.
+> (ENOMEM): Default to EINVAL." class="Link--secondary" href="/eggert/tz/commit/d9b364304b9f56e7c94252e84829efba3804417b">Port to platforms where malloc does not set errno</a>
+>               </span>
+1644c1813
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-08-10T02:38:30Z" data-view-component="true" class="no-wrap">Aug 10, 2021</time-ago>
+1656c1825
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="difftime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/difftime.c">difftime.c</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="difftime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/difftime.c">difftime.c</a></span>
+1660c1829,1831
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Be consistent about no space between function and ‘(’." class="Link--secondary" href="/eggert/tz/commit/6010bddd1345fa1a4e3fe6eb2c07aef0f9409134">Be consistent about no space between function and ‘(’.</a>
+>               </span>
+1664c1835
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-04-01T08:22:59Z" data-view-component="true" class="no-wrap">Apr 1, 2021</time-ago>
+1676c1847
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="etcetera" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/etcetera">etcetera</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="etcetera" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/etcetera">etcetera</a></span>
+1680c1851,1872
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Don’t merge Etc/* with location-based names
+> 
+> The previous patch merged Etc/* names with location-based ones;
+> for example, it made Asia/Bangkok an alias for Etc/GMT-7.
+> This may have been a step too far, for reasons discussed here:
+> https://mm.icann.org/pipermail/tz/2021-May/030109.html
+> Revert that part of the change, by undoing the problematic merges.
+> * NEWS, theory.html, zone.tab, zone1970.tab:
+> Document the partial reversion of the recent merges.
+> * africa (Africa/Abidjan):
+> * asia (Asia/Urumqi, NBorneo, Asia/Kuching, Indian/Maldives)
+> (Asia/Riyadh, Asia/Bangkok, Asia/Dubai):
+> * australasia (Pacific/Gambier, Pacific/Tahiti, Pacific/Tarawa)
+> (Pacific/Palau, Pacific/Port_Moresby, Pacific/Guadalcanal):
+> * southamerica (America/La_Paz, America/Cayenne)
+> (Atlantic/South_Georgia):
+> Move from ‘backzone’ back to here, and remove the corresponding
+> ‘backward’ links.
+> * backward: Don’t link from Etc/* to a location name.
+> * backzone: Above data moved from here." class="Link--secondary" href="/eggert/tz/commit/e216b1c7d29dfeac6dec92ff0ceafbaa024fc0a8">Don’t merge Etc/* with location-based names</a>
+>               </span>
+1684c1876
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-05-27T01:55:46Z" data-view-component="true" class="no-wrap">May 27, 2021</time-ago>
+1696c1888
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="europe" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/europe">europe</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="europe" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/europe">europe</a></span>
+1700c1892,1894
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Correct spelling of &quot;Treindl&quot; (thanks to Steffen Nurpmeso)" class="Link--secondary" href="/eggert/tz/commit/868ba546bbcf992705631db99f286bc45fc5ed66">Correct spelling of "Treindl" (thanks to Steffen Nurpmeso)</a>
+>               </span>
+1704c1898
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-10-05T23:17:05Z" data-view-component="true" class="no-wrap">Oct 5, 2021</time-ago>
+1716c1910
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="factory" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/factory">factory</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="factory" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/factory">factory</a></span>
+1720c1914,1928
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Use STDOFF, not UTOFF, for standard time
+> 
+> * africa, antarctica, asia, australasia, backzone, europe, factory:
+> * northamerica, pacificnew, southamerica, systemv, tz-how-to.html:
+> * zic.8, zoneinfo2tdf.pl: Use STDOFF instead of UTOFF in comments.
+> * zic.c (struct rule): Rename r_stdoff to r_save.
+> (struct zone): Rename z_stdoff to z_save and z_utoff to z_stdoff.
+> (ZF_STDOFF): Rename from ZF_UTOFF.
+> (ZFC_STDOFF): Rename from ZFC_UTOFF.
+> (RF_SAVE): Rename from RF_STDOFF.
+> (getsave): Rename from getstdoff.
+> (getsave, inzsub, doabbr, stringrule, outzone):
+> Rename locals for consistency." class="Link--secondary" href="/eggert/tz/commit/92c49ba8eba51df4f0ac09d5e62630e6b86b0b28">Use STDOFF, not UTOFF, for standard time</a>
+>               </span>
+1724c1932
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2019-06-17T07:02:41Z" data-view-component="true" class="no-wrap">Jun 17, 2019</time-ago>
+1736c1944
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="iso3166.tab" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/iso3166.tab">iso3166.tab</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="iso3166.tab" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/iso3166.tab">iso3166.tab</a></span>
+1740c1948,1955
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Sort “Bahamas” and “Gambia” better
+> 
+> * iso3166.tab: Omit “The” before “Bahamas” and “Gambia”, as that
+> messed up tzselect’s sorting.  This reverts the recent
+> definite-article change to this file; the other affected files
+> keep the change." class="Link--secondary" href="/eggert/tz/commit/e8dd9a81f79de9fb92d6f07e43936826fe08dfac">Sort “Bahamas” and “Gambia” better</a>
+>               </span>
+1744c1959
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-05-10T00:56:21Z" data-view-component="true" class="no-wrap">May 10, 2021</time-ago>
+1756c1971
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="leap-seconds.list" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/leap-seconds.list">leap-seconds.list</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="leap-seconds.list" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/leap-seconds.list">leap-seconds.list</a></span>
+1760c1975,1983
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="No leap second on 2021-12-31
+> 
+> Per IERS Bulletin C 62 (2021-07-05).
+> https://hpiers.obspm.fr/iers/bul/bulc/bulletinc.62
+> 
+> * leap-seconds.list: Update file from NIST, retrieved from
+> ftp://ftp.nist.gov/pub/time/leap-seconds.list" class="Link--secondary" href="/eggert/tz/commit/7f74206b39673b1a110285c6992f70507e211060">No leap second on 2021-12-31</a>
+>               </span>
+1764c1987
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-07-22T14:17:52Z" data-view-component="true" class="no-wrap">Jul 22, 2021</time-ago>
+1776c1999
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="leapseconds.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/leapseconds.awk">leapseconds.awk</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="leapseconds.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/leapseconds.awk">leapseconds.awk</a></span>
+1780c2003,2007
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="leapseconds now says why NIST, not IERS
+> 
+> * leapseconds.awk: Output a comment about this." class="Link--secondary" href="/eggert/tz/commit/b106a6e844a090abc6debb4d3e9496b5231c0fb4">leapseconds now says why NIST, not IERS</a>
+>               </span>
+1784c2011
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-10-25T21:43:48Z" data-view-component="true" class="no-wrap">Oct 25, 2020</time-ago>
+1796c2023
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="localtime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/localtime.c">localtime.c</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="localtime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/localtime.c">localtime.c</a></span>
+1800c2027,2041
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Fix ambiguous leapsecs by rolling up to a minute
+> 
+> This fixes a longstanding ambiguity in the output of localtime in
+> oddball timezones where a positive leap second occurs when the UTC
+> offset is not a multiple of 60 seconds.  See NEWS for details.
+> * NEWS: Describe fix.
+> * localtime.c (timesub): Use &quot;??:??:60&quot; at the end of the
+> localtime minute containing the leap second, even when the second
+> marked &quot;??:??:60&quot; is not itself a leap second.  This avoids
+> ambiguity in localtime output, at the cost of having the localtime
+> leap second occur up to a minute away from the UTC leap second
+> when the UTC offset is not a multiple of 60 seconds.
+> * tzfile.5: Document the fixed and unfixed behaviors." class="Link--secondary" href="/eggert/tz/commit/83b95809017c60bff8dbccac6a0d713aaa166bb7">Fix ambiguous leapsecs by rolling up to a minute</a>
+>               </span>
+1804c2045
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-12T00:32:11Z" data-view-component="true" class="no-wrap">Sep 12, 2021</time-ago>
+1816c2057
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="newctime.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/newctime.3">newctime.3</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="newctime.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/newctime.3">newctime.3</a></span>
+1820c2061,2066
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Use bold for command and func names in man pages
+> 
+> This seems to be the modern style.
+> Problem reported by Michael Kerrisk (for GNU/Linux man pages)." class="Link--secondary" href="/eggert/tz/commit/402965e639e89b3bdad2cc9ed36451f466766edb">Use bold for command and func names in man pages</a>
+>               </span>
+1824c2070
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-04-27T06:39:52Z" data-view-component="true" class="no-wrap">Apr 27, 2020</time-ago>
+1836c2082
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="newstrftime.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/newstrftime.3">newstrftime.3</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="newstrftime.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/newstrftime.3">newstrftime.3</a></span>
+1840c2086,2098
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="strftime: conform better to POSIX+
+> 
+> The latest POSIX draft specifies errno values for some strftime
+> errors.  Implement those, plus one other one: a reliable way
+> to determine whether 0 represents failure or buffer exhaustion
+> (I’ll propose this to POSIX).
+> * newstrftime.3 (RETURN VALUE): Document this.
+> * strftime.c (strftime): Set errno according to current draft of
+> POSIX.  Also, set errno to ERANGE on overflow, and preserve errno
+> if there is no error.
+> (_fmt): Return NULL if %s would be out of range.  Callers changed." class="Link--secondary" href="/eggert/tz/commit/8b238ec54c09556eb2aa405c1741eedfd12c4a87">strftime: conform better to POSIX+</a>
+>               </span>
+1844c2102
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-08-08T19:28:09Z" data-view-component="true" class="no-wrap">Aug 8, 2020</time-ago>
+1856c2114
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="newtzset.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/newtzset.3">newtzset.3</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="newtzset.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/newtzset.3">newtzset.3</a></span>
+1860c2118,2123
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Use bold for command and func names in man pages
+> 
+> This seems to be the modern style.
+> Problem reported by Michael Kerrisk (for GNU/Linux man pages)." class="Link--secondary" href="/eggert/tz/commit/402965e639e89b3bdad2cc9ed36451f466766edb">Use bold for command and func names in man pages</a>
+>               </span>
+1864c2127
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-04-27T06:39:52Z" data-view-component="true" class="no-wrap">Apr 27, 2020</time-ago>
+1876c2139
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="northamerica" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/northamerica">northamerica</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="northamerica" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/northamerica">northamerica</a></span>
+1880c2143,2145
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Correct spelling of &quot;Treindl&quot; (thanks to Steffen Nurpmeso)" class="Link--secondary" href="/eggert/tz/commit/868ba546bbcf992705631db99f286bc45fc5ed66">Correct spelling of "Treindl" (thanks to Steffen Nurpmeso)</a>
+>               </span>
+1884c2149
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-10-05T23:17:05Z" data-view-component="true" class="no-wrap">Oct 5, 2021</time-ago>
+1896c2161
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="private.h" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/private.h">private.h</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="private.h" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/private.h">private.h</a></span>
+1900c2165,2172
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Change is_digit from macro to function
+> 
+> This is cleaner and should be no slower with modern optimizers.
+> * localtime.c, zdump.c (is_digit):
+> New static function, replacing the old macro.
+> * private.h (is_digit): Remove this macro." class="Link--secondary" href="/eggert/tz/commit/f5a55467cf822e5375f725892d4db541dacd5a25">Change is_digit from macro to function</a>
+>               </span>
+1904c2176
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-11T17:36:44Z" data-view-component="true" class="no-wrap">Sep 11, 2021</time-ago>
+1916c2188
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="southamerica" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/southamerica">southamerica</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="southamerica" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/southamerica">southamerica</a></span>
+1920c2192,2204
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Revert most 2021b changes to &#39;backward&#39;
+> 
+> Revert almost all of 2021b&#39;s changes to the &#39;backward&#39; file,
+> by moving Link directives back to where they were in 2021a.
+> This reverts a maintenance change that ran into problems with
+> Joda-Time.  Problem reported by Stephen Colebourne in:
+> https://mm.icann.org/pipermail/tz/2021-September/030820.html
+> * NEWS: Mention this.
+> * africa, asia, australasia, europe, northamerica, southamerica:
+> Move several links to these files, from ...
+> * backward: ... this file." class="Link--secondary" href="/eggert/tz/commit/7483e30bc7381f940e8ec0b4fadce9749f5ffdd6">Revert most 2021b changes to 'backward'</a>
+>               </span>
+1924c2208
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-29T08:43:52Z" data-view-component="true" class="no-wrap">Sep 29, 2021</time-ago>
+1936c2220
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="strftime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/strftime.c">strftime.c</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="strftime.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/strftime.c">strftime.c</a></span>
+1940c2224,2233
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Omit some casts
+> 
+> * localtime.c (getsecs, localsub, timesub):
+> * strftime.c (_fmt):
+> * zdump.c (dumptime):
+> * zic.c (rcomp, atcomp):
+> Rely on automatic conversions instead of casts,
+> which are more error-prone." class="Link--secondary" href="/eggert/tz/commit/1103a98964dda86205ea48fa6ecb67cf29f32890">Omit some casts</a>
+>               </span>
+1944c2237
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-11T19:37:47Z" data-view-component="true" class="no-wrap">Sep 11, 2021</time-ago>
+1956c2249
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="theory.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/theory.html">theory.html</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="theory.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/theory.html">theory.html</a></span>
+1960c2253,2274
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Don’t merge Etc/* with location-based names
+> 
+> The previous patch merged Etc/* names with location-based ones;
+> for example, it made Asia/Bangkok an alias for Etc/GMT-7.
+> This may have been a step too far, for reasons discussed here:
+> https://mm.icann.org/pipermail/tz/2021-May/030109.html
+> Revert that part of the change, by undoing the problematic merges.
+> * NEWS, theory.html, zone.tab, zone1970.tab:
+> Document the partial reversion of the recent merges.
+> * africa (Africa/Abidjan):
+> * asia (Asia/Urumqi, NBorneo, Asia/Kuching, Indian/Maldives)
+> (Asia/Riyadh, Asia/Bangkok, Asia/Dubai):
+> * australasia (Pacific/Gambier, Pacific/Tahiti, Pacific/Tarawa)
+> (Pacific/Palau, Pacific/Port_Moresby, Pacific/Guadalcanal):
+> * southamerica (America/La_Paz, America/Cayenne)
+> (Atlantic/South_Georgia):
+> Move from ‘backzone’ back to here, and remove the corresponding
+> ‘backward’ links.
+> * backward: Don’t link from Etc/* to a location name.
+> * backzone: Above data moved from here." class="Link--secondary" href="/eggert/tz/commit/e216b1c7d29dfeac6dec92ff0ceafbaa024fc0a8">Don’t merge Etc/* with location-based names</a>
+>               </span>
+1964c2278
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-05-27T01:55:46Z" data-view-component="true" class="no-wrap">May 27, 2021</time-ago>
+1976c2290
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="time2posix.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/time2posix.3">time2posix.3</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="time2posix.3" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/time2posix.3">time2posix.3</a></span>
+1980c2294,2299
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Use bold for command and func names in man pages
+> 
+> This seems to be the modern style.
+> Problem reported by Michael Kerrisk (for GNU/Linux man pages)." class="Link--secondary" href="/eggert/tz/commit/402965e639e89b3bdad2cc9ed36451f466766edb">Use bold for command and func names in man pages</a>
+>               </span>
+1984c2303
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-04-27T06:39:52Z" data-view-component="true" class="no-wrap">Apr 27, 2020</time-ago>
+1996c2315
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tz-art.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/tz-art.html">tz-art.html</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tz-art.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/tz-art.html">tz-art.html</a></span>
+2000c2319,2321
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Consistently mark DST with &lt;abbr&gt;." class="Link--secondary" href="/eggert/tz/commit/48da91fc9cec9b8b404697a82b98a614a9096041">Consistently mark DST with &lt;abbr&gt;.</a>
+>               </span>
+2004c2325
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-05-11T00:08:49Z" data-view-component="true" class="no-wrap">May 11, 2021</time-ago>
+2016c2337
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tz-how-to.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/tz-how-to.html">tz-how-to.html</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tz-how-to.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/tz-how-to.html">tz-how-to.html</a></span>
+2020c2341,2351
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Convert tz-how-to.html to HTML 5
+> 
+> This simplifies maintenance and should not affect appearance.
+> * tz-how-to.html: Convert to HTML 5, preserving the old
+> appearance as much as possible on Firefox 81.
+> * Makefile (SGML_TOPDIR, SGML_DTDDIR, SGML_SEARCH_PATH)
+> (SGML_CATALOG_FILES, VALIDATE, VALIDATE_FLAGS, VALIDATE_ENV):
+> Remove; no longer needed.
+> (check_tz-how-to.html): Check this just like the other HTML files." class="Link--secondary" href="/eggert/tz/commit/c5f6ef85188c210a4669ce5c8778983dcb4369f3">Convert tz-how-to.html to HTML 5</a>
+>               </span>
+2024c2355
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-10-04T20:43:00Z" data-view-component="true" class="no-wrap">Oct 4, 2020</time-ago>
+2036c2367
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tz-link.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/tz-link.html">tz-link.html</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tz-link.html" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/tz-link.html">tz-link.html</a></span>
+2040c2371,2375
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Mention time-tzdb and Timezone Database Explorer
+> 
+> * tz-link.html: Mention these (thanks to Kerry Shetline)." class="Link--secondary" href="/eggert/tz/commit/9296ea527dbdf2b6027d31273bdee3e3c0128904">Mention time-tzdb and Timezone Database Explorer</a>
+>               </span>
+2044c2379
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-02T07:18:54Z" data-view-component="true" class="no-wrap">Sep 2, 2021</time-ago>
+2056c2391
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzfile.5" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/tzfile.5">tzfile.5</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzfile.5" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/tzfile.5">tzfile.5</a></span>
+2060c2395,2400
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Document that -00 means local time is unspecified
+> 
+> * tzfile.5, zic.8: Document longstanding practice in time zone
+> abbreviations.  This better matches draft RFC 8536bis." class="Link--secondary" href="/eggert/tz/commit/bdeb83438403b890f10c2818b50622812e1abe9e">Document that -00 means local time is unspecified</a>
+>               </span>
+2064c2404
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-10-12T04:53:28Z" data-view-component="true" class="no-wrap">Oct 12, 2021</time-ago>
+2076c2416
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzfile.h" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/tzfile.h">tzfile.h</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzfile.h" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/tzfile.h">tzfile.h</a></span>
+2080c2420,2424
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Fix tzfile.h comment
+> 
+> * tzfile.h (struct tzhead): Update comment for version 4." class="Link--secondary" href="/eggert/tz/commit/96912bb31a83126fa727b5ff201b9efab45932ac">Fix tzfile.h comment</a>
+>               </span>
+2084c2428
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-11T19:19:11Z" data-view-component="true" class="no-wrap">Sep 11, 2021</time-ago>
+2096c2440
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzselect.8" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/tzselect.8">tzselect.8</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzselect.8" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/tzselect.8">tzselect.8</a></span>
+2100c2444,2449
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Use bold for command and func names in man pages
+> 
+> This seems to be the modern style.
+> Problem reported by Michael Kerrisk (for GNU/Linux man pages)." class="Link--secondary" href="/eggert/tz/commit/402965e639e89b3bdad2cc9ed36451f466766edb">Use bold for command and func names in man pages</a>
+>               </span>
+2104c2453
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-04-27T06:39:52Z" data-view-component="true" class="no-wrap">Apr 27, 2020</time-ago>
+2116c2465
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzselect.ksh" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/tzselect.ksh">tzselect.ksh</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="tzselect.ksh" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/tzselect.ksh">tzselect.ksh</a></span>
+2120c2469,2471
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Give title lines to many files lacking them" class="Link--secondary" href="/eggert/tz/commit/028241ce20339e8e60ff07c8f21aad8726235461">Give title lines to many files lacking them</a>
+>               </span>
+2124c2475
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2018-07-16T17:16:52Z" data-view-component="true" class="no-wrap">Jul 16, 2018</time-ago>
+2136c2487
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="workman.sh" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/workman.sh">workman.sh</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="workman.sh" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/workman.sh">workman.sh</a></span>
+2140c2491,2493
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Give title lines to many files lacking them" class="Link--secondary" href="/eggert/tz/commit/028241ce20339e8e60ff07c8f21aad8726235461">Give title lines to many files lacking them</a>
+>               </span>
+2144c2497
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2018-07-16T17:16:52Z" data-view-component="true" class="no-wrap">Jul 16, 2018</time-ago>
+2156c2509
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zdump.8" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zdump.8">zdump.8</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zdump.8" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zdump.8">zdump.8</a></span>
+2160c2513,2523
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Improve zdump -v tm_year extrema display
+> 
+> * NEWS, zdump.8: Document the new behavior.
+> * zdump.c (main): Let showextrema do the work.
+> Don’t bother with the one-hour-away timestamp.
+> (hunt): New args LOTMP and ONLY_OK. All callers changed.
+> (showextrema): New function.  Don’t assume there’s just a single
+> transition near the boundary; there could be more if a timezone or
+> leap-second transition is nearby." class="Link--secondary" href="/eggert/tz/commit/ac07b446a3afaa4cb1ae11a91785a201c91f6351">Improve zdump -v tm_year extrema display</a>
+>               </span>
+2164c2527
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-03-24T03:58:29Z" data-view-component="true" class="no-wrap">Mar 24, 2021</time-ago>
+2176c2539
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zdump.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zdump.c">zdump.c</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zdump.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zdump.c">zdump.c</a></span>
+2180c2543,2552
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Omit some casts
+> 
+> * localtime.c (getsecs, localsub, timesub):
+> * strftime.c (_fmt):
+> * zdump.c (dumptime):
+> * zic.c (rcomp, atcomp):
+> Rely on automatic conversions instead of casts,
+> which are more error-prone." class="Link--secondary" href="/eggert/tz/commit/1103a98964dda86205ea48fa6ecb67cf29f32890">Omit some casts</a>
+>               </span>
+2184c2556
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-11T19:37:47Z" data-view-component="true" class="no-wrap">Sep 11, 2021</time-ago>
+2196c2568
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zic.8" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zic.8">zic.8</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zic.8" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zic.8">zic.8</a></span>
+2200c2572,2580
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="zic -r now uses -00 for unspecified timestamps
+> 
+> * NEWS, zic.8: Mention this.
+> * zic.c (unspecifiedtype): New static var.
+> (limitrange): Use unspecified time before -r low cutoff.
+> (writezone): Use it after -r high cutoff.
+> (outzone): Create unspecified time type if cutoffs are in use." class="Link--secondary" href="/eggert/tz/commit/5f06f9a3182d2c2942be1b678e4defa9c7400653">zic -r now uses -00 for unspecified timestamps</a>
+>               </span>
+2204c2584
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-10-15T08:57:48Z" data-view-component="true" class="no-wrap">Oct 15, 2021</time-ago>
+2216c2596
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zic.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zic.c">zic.c</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zic.c" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zic.c">zic.c</a></span>
+2220c2600,2608
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="zic -r now uses -00 for unspecified timestamps
+> 
+> * NEWS, zic.8: Mention this.
+> * zic.c (unspecifiedtype): New static var.
+> (limitrange): Use unspecified time before -r low cutoff.
+> (writezone): Use it after -r high cutoff.
+> (outzone): Create unspecified time type if cutoffs are in use." class="Link--secondary" href="/eggert/tz/commit/5f06f9a3182d2c2942be1b678e4defa9c7400653">zic -r now uses -00 for unspecified timestamps</a>
+>               </span>
+2224c2612
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-10-15T08:57:48Z" data-view-component="true" class="no-wrap">Oct 15, 2021</time-ago>
+2236c2624
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="ziguard.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/ziguard.awk">ziguard.awk</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="ziguard.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/ziguard.awk">ziguard.awk</a></span>
+2240c2628,2635
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Omit duplicate Link lines in ziguard output
+> 
+> * ziguard.awk: Later Link lines now comment out earlier ones.
+> Formerly, we relied on ‘zic’ to ignore the earlier lines, but this
+> made for more-confusing ziguard output.  This change does not
+> affect zic’s output." class="Link--secondary" href="/eggert/tz/commit/2e6a2c83b032405705e64583fa47b3ebf289b735">Omit duplicate Link lines in ziguard output</a>
+>               </span>
+2244c2639
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-05-09T19:48:03Z" data-view-component="true" class="no-wrap">May 9, 2021</time-ago>
+2256c2651
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zishrink.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zishrink.awk">zishrink.awk</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zishrink.awk" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zishrink.awk">zishrink.awk</a></span>
+2260c2655,2663
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Remove obsolete file systemv
+> 
+> * systemv: Remove obsolete file.
+> * zishrink.awk (BEGIN): Don&#39;t depend on the old file.
+> (process_input_line): Remove exception for the Rules the old file contains.
+> * Makefile (NDATA, VERSION_DEPS): Remove all uses.
+> * NEWS: Document this." class="Link--secondary" href="/eggert/tz/commit/b3cf2ee42f0799e190c875f3af2ce6e5a7e287ce">Remove obsolete file systemv</a>
+>               </span>
+2264c2667
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-10-03T21:58:38Z" data-view-component="true" class="no-wrap">Oct 3, 2020</time-ago>
+2276c2679
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zone.tab" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zone.tab">zone.tab</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zone.tab" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zone.tab">zone.tab</a></span>
+2280c2683,2685
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title=", → ." class="Link--secondary" href="/eggert/tz/commit/0291a2da1593c7d7e6e3859ba73d46b80291e0d4">, → .</a>
+>               </span>
+2284c2689
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-20T16:34:44Z" data-view-component="true" class="no-wrap">Sep 20, 2021</time-ago>
+2296c2701
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zone1970.tab" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zone1970.tab">zone1970.tab</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zone1970.tab" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zone1970.tab">zone1970.tab</a></span>
+2300c2705,2724
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Revert most of the recent alike-since-1970 changes
+> 
+> This reverts most proposed changes that merged all Zones agreeing
+> since 1970, as concerns were raised about doing too many of these
+> changes at once.  It does keeps some of these changes in the
+> interest of making tzdb more equitable one step at a time.
+> * NEWS: Mention this and adjust change announcement.
+> * africa (Indian/Reunion, Indian/Mahe):
+> * antarctica (Indian/Kerguelen, Antarctica/Vostok):
+> * asia (Asia/Brunei, Asia/Kuala_Lumpur):
+> * australasia (Indian/Christmas, Indian/Cocos, Pacific/Majuro)
+> (Pacific/Chuuk, Pacific/Pohnpei, Pacific/Funafuti, Pacific/Wake)
+> (Pacific/Wallis):
+> * europe (Europe/Copenhagen, Atlantic/Reykjavik)
+> (Europe/Luxembourg, Europe/Monaco, Europe/Amsterdam, Europe/Oslo)
+> (Europe/Stockholm):
+> Move these Zones (and associated Rules) back from ‘backzone’.
+> * backward, backzone, zone1970.tab: Adjust to match these moves." class="Link--secondary" href="/eggert/tz/commit/a82f026448437133ff8ff0e8977c9b46d14c3dcb">Revert most of the recent alike-since-1970 changes</a>
+>               </span>
+2304c2728
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2021-09-24T23:40:29Z" data-view-component="true" class="no-wrap">Sep 24, 2021</time-ago>
+2316c2740
+<             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zoneinfo2tdf.pl" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021e/zoneinfo2tdf.pl">zoneinfo2tdf.pl</a></span>
+---
+>             <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="zoneinfo2tdf.pl" data-pjax="#repo-content-pjax-container" href="/eggert/tz/blob/2021d/zoneinfo2tdf.pl">zoneinfo2tdf.pl</a></span>
+2320c2744,2773
+<               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
+---
+>               <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+>                     <a data-pjax="true" title="Drop support for zic -y, Rule TYPEs, pacificnew
+> 
+> These features have not been used by the distribution since release
+> 2000f, were previously deprecated in 2015f, and zic has warned against
+> their use since 2017c.
+> 
+> * zic.c (struct rule): Remove r_yrtype field.
+> (main): Ignore obsolete -y option.
+> (rulesub): Error on nontrivial use of the former Rule TYPE field.
+> (stringzone): Remove year type check.
+> (outzone): Stop considering the former TYPE field when applying Rules.
+> (shellquote, yearistype): Remove now-disused code.
+> * zic.8: Rename TYPE field of Rule lines to &quot;-&quot; in examples and in the
+> input format specification; fully deprecate this field for backwards
+> compatibiilty only.
+> * africa, antarctica, asia, australasia, backzone, europe, northamerica,
+> southamerica, zoneinfo2tdf.pl: Rename TYPE field in Rule line header
+> comments to &quot;-&quot;.
+> * pacificnew, yearistype.sh: Remove obsolete files.
+> * tz-how-to.html: Rename TYPE field of Rule lines to &quot;-&quot; in examples;
+> expand explanation of FROM and TO fields so that the reworked
+> description of the deprecated field makes sense in context.
+> * Makefile (YEARISTYPE, yearistype): Remove.
+> (DATA, all, INSTALLARGS, INSTALL_DATA_DEPS, check_character_set,
+> clean_misc): Remove dependencies on yearistype, yearistype.sh, and
+> YEARISTYPE.
+> (TDATA_TO_CHECK, VERSION_DEPS): Remove dependencies on obsolete files.
+> * NEWS: Document this." class="Link--secondary" href="/eggert/tz/commit/284e877d7511d964249ecfd2e75a9cab85e2741a">Drop support for zic -y, Rule TYPEs, pacificnew</a>
+>               </span>
+2324c2777
+<               <div class="Skeleton Skeleton--text">&nbsp;</div>
+---
+>               <time-ago datetime="2020-10-03T22:07:12Z" data-view-component="true" class="no-wrap">Oct 3, 2020</time-ago>
+2334c2787
+< </include-fragment>
+---
+> 
+2434c2887
+<     <a class="Link--muted" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:readme&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f4816aa8076b30bef477025fafd9ce10c9457eda3147230b44e662baee28ac8a" data-analytics-event="{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:readme&quot;}" href="#readme">
+---
+>     <a class="Link--muted" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:readme&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9a9d722a60418e686254fd55f97f332405734b597ad9dc983142d83027dd2be8" data-analytics-event="{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:readme&quot;}" href="#readme">
+2446c2899
+<       data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:license&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c04d958a8febd345f95ae26cd60d8888be5af6f856587f125f79d873850c27c6" data-analytics-event="{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:license&quot;}"
+---
+>       data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:license&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8862913e729d4b2d5eb01ce4d2f10752ea85a42a1e35bc28a9ceaff96bbc5bfe" data-analytics-event="{&quot;category&quot;:&quot;Repository Overview&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;location:sidebar;file:license&quot;}"
+2456c2909
+< <include-fragment  aria-label="Loading..." src="/eggert/tz/hovercards/citation/sidebar_partial?tree_name=2021e">
+---
+> <include-fragment  aria-label="Loading..." src="/eggert/tz/hovercards/citation/sidebar_partial?tree_name=2021d">
+2523,2528d2975
+<           <div class="BorderGrid-row" hidden>
+<             <div class="BorderGrid-cell">
+<               <include-fragment src="/eggert/tz/used_by_list" accept="text/fragment+html">
+< </include-fragment>
+<             </div>
+<           </div>
+2779,2782c3226,3229
+<         <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6927b658e3e3919333b867be9235526c6c6c3dd4dfdf3a140374e6bfe26616e7" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a></li>
+<         <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a53c1701448f1a4509784432944afb2e33c5df859d3a979f1d6cdf0fa6e1ff76" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a></li>
+<         <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="695113a0d024193fbf22e0ad98f1eb11b21adeffc1c82a92aea1d3f3cec6d92c" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security">Security</a></li>
+<         <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bdb3e1668240324cb41e7fdc92b81b226cb3d185d52bce5dc131dd26f57ee4bc" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}">Status</a></li>
+---
+>         <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="22bbf37cace39d1cc37c600309030e4a262653697cef635fab5fa6151a22d715" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a></li>
+>         <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="06f6a630df9e7625311c51dab08ea1c4b208cfa1838f25cfd861e9227e943014" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a></li>
+>         <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7d9910c0765fc53966224c71aac99e21d480a5e75c00a317723202c43f383830" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security">Security</a></li>
+>         <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="68d81b40d16631c4168b5e8e5eeda0ebc08197c34559d7d4eb06c7d82eeb8ad0" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}">Status</a></li>
+2784,2788c3231,3235
+<         <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="18e031cae4394f68cb38fc72298312e1e81ca00b33aa62b75bed805e171d4142" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}">Contact GitHub</a></li>
+<         <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8c71a8cd399df774cef280c132aea8df5ac230d39408848d03d5495e469a4b29" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;}">Pricing</a></li>
+<       <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="249ec4873868fa5b589ff3f8e3c1cd1bb3f729b9decc6cbc3ff7f602547b2570" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}">API</a></li>
+<       <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b471eeaf6e45abc8f6383a97c13dd3edf79b5ec15e4148770207bfa52f9b92f8" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;}">Training</a></li>
+<         <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021e&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f7c122226df62d4f9793a2bce594102cfcdad2d49f54552035703fe46d7b1ad7" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}">Blog</a></li>
+---
+>         <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="906f58e87fbd33afdee16653a06e7f03b883a6a7da3f05c7a9b2a74d51831bfb" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}">Contact GitHub</a></li>
+>         <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="97111274b35fec4b343cf2146ee09b63d1b772c7ff1e7f28b910e9bd7f6f1bdb" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;}">Pricing</a></li>
+>       <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5f6f68c2ba23995e6df53fb1d96b721681de853b70da445e01a17cfdb030a49c" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}">API</a></li>
+>       <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fab97abb919176828e1cfebf29cb74b125dd068e55ab68d7d4cf76d8a5c5b9f1" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;}">Training</a></li>
+>         <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/eggert/tz/tree/2021d&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f3c435a141ca479b6b9b31bc67af46f56d2e33536e7a0a53934e55b90163a714" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}">Blog</a></li>
