@@ -1,7 +1,6 @@
 # Chorus Lapilli
 
 1. A tic-tac-toe application built using React.
-<br />
 
 2. A chorus lapilli application built using React. Chorus lapilli is like tic-tac-toe in that players take turn placing pieces on a 3×3 board and the goal is to get three pieces in a row. However, it differs from tic-tac-toe in two ways:
 
