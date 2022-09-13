@@ -1,5 +1,1 @@
-# Files and Shell Scripting
-
-Lab: Linux and Emacs
-
-Homework: Shell Scripting
+# Linux, Emacs, and Shell Scripting
