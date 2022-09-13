@@ -1,0 +1,115 @@
+Changes made to tic-tac-toe:
+
+  Board constructor: added state variables
+    nTurns: total number of turns, play tic-tac-toe if nTurns < 6,
+      else play chorus lapilli
+    lastSquare: the last square selected, used for moving pieces
+      in chorus lapilli
+
+
+  handleClick(i):
+    keep track of the current player
+    
+    	 let player = this.state.xIsNext ? 'X' : 'O';
+
+    return if there's a winner
+    if nTurns < 6, play tic-tac-toe
+    if nTurns => 6, play chorus lapilli
+      if a square hasn't been selected,
+        if the player occupies the square,
+	  delete piece from square
+
+	    squares[i] = null;
+
+	  set lastSquare to this square
+	  
+      if a square has been selected,
+        see if there is a piece in the center
+
+	  let center = (squares[4] === player);
+
+        if the player clicks on the same square,
+	  put the piece back
+
+	    squares[i] = player;
+
+	  reset lastSquare
+	if the player moves to a non-empty or non-adjacent square,
+
+	  if (!isAdjacent(i, this.state.lastSquare || squares[i])
+
+	  put the piece back, make player choose again
+
+	    squares[this.state.lastSquare] = player;
+	    this.setState({lastSquare: -1});
+
+	if there is a piece in the center,
+	  move piece to the selected square
+	  if the player does not win,
+	    put the piece back
+
+	otherwise, move piece to the selected square
+	remove piece from the last square
+	reset lastSquare and make the other player go
+
+	  squares[i] = player;
+	  squares[this.state.lastSquare] = null;
+	  this.setState({ squares: squares,
+	    lastSquare: -1, xIsNext: !this.state.xIsNext});
+
+
+  isAdjacent(i, j): checks if squares i and j are adjacent
+    if (i === 0)
+      return j === 1 || j === 3 || j === 4;
+    else if (i === 1)
+      return === 0 || j === 2 || j === 3 || j === 4 || j === 5;
+    else if (i === 2)
+      return j === 1 || j === 4 || j === 5;
+    else if (i === 3)
+      return j === 0 || j === 1 || j === 4 || j === 6 || j === 7;
+    else if (i === 4)
+      return true;
+    else if (i === 5)
+      return j === 1 || j === 2 || j === 4 || j === 7 || j === 8;
+    else if (i === 6)
+      return j === 3 || j === 4 || j === 7;
+    else if (i === 7)
+      return j === 3 || j === 4 || j === 5 || j === 6 || j === 8;
+    else if (i === 8)
+      return j === 4 || j === 5 || j === 7;
+
+
+
+Documentation to run the game:
+
+  First, unzip the chorus-lapilli.tgz file using a method such as
+  7zip or winrar. You will get a directory called 'package'.
+  Enter the package directory by running 'cd package'.
+  Once you're in the package directory, run 'npm install'.
+  Then, run 'npm start'. This will open https://localhost:3000
+  in your browser, and a tic-tac-toe field will appear.
+
+  Output of npm pack --dry-run:
+    npm notice 
+    npm notice 📦  chorus-lapilli@0.1.0
+    npm notice === Tarball Contents === 
+    npm notice 3.4kB README.md           
+    npm notice 817B  package.json        
+    npm notice 3.9kB public/favicon.ico  
+    npm notice 1.7kB public/index.html   
+    npm notice 5.3kB public/logo192.png  
+    npm notice 9.7kB public/logo512.png  
+    npm notice 492B  public/manifest.json
+    npm notice 67B   public/robots.txt   
+    npm notice 640B  src/index.css       
+    npm notice 5.1kB src/index.js        
+    npm notice === Tarball Details === 
+    npm notice name:          chorus-lapilli                          
+    npm notice version:       0.1.0                                   
+    npm notice filename:      chorus-lapilli-0.1.0.tgz                
+    npm notice package size:  23.5 kB                                 
+    npm notice unpacked size: 31.1 kB                                 
+    npm notice shasum:        1fb24a4fead8b5e7483bd0958132f0afb3a843fe
+    npm notice integrity:     sha512-oZ4MuvWgo4uju[...]bvgfQxQdy50gw==
+    npm notice total files:   10                                      
+    npm notice

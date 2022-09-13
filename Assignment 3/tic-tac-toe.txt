@@ -1,0 +1,86 @@
+run 'npx create-react-app tic-tac-toe'
+create index.css and index.js files
+run 'npm start' within tic-tac-toe folder
+this opens an empty tic-tac-toe field in the browser
+
+
+added constructor to Board, set Board's initial state to be an array
+of 9 empty squares, and player X goes first
+
+      this.state = {
+        this.state = { squares: Array(9).fil(null),
+        xIsNext: true,
+      };
+
+
+Square function takes props as input, returns what should be rendered
+
+      return( <button className="square" onClick={props.onClick}>
+        {props.value} </button> );
+
+
+renderSquare(i) returns a square with value i
+
+      return <Square value={this.state.squares[i]} />;
+
+
+onClick() is called when a Square is clicked, added to the return statement
+in renderSquare(i)
+
+      <button className="square"
+      	 onClick={() => this.props.onClick()}/>
+
+
+handleClick(i) added to Board class, processes a click, switches player
+after a piece is placed, ignores a click if there's a winner or if a
+Square is occupied, slice() method creates a copy of squares array
+instead of modifying the existing array
+
+      const squares = this.state.squares.slice();
+      if (calculateWinner(squares) || squares[i]) {
+        return;
+      }
+      squares[i] = this.state.xIsNext ? 'X' : 'O';
+      this.setState({
+        squares: squares,
+	xIsNext: !this.state.xIsNext,
+      });
+
+
+render() outputs the square grid to the screen, displays which player
+has the next turn and if there's a winner
+
+      const winner = calculateWinner(this.state.squares);
+      let status;
+      if (winner) {
+        status = 'Winner: ' + winner;
+      }
+      else {
+        status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+      }
+      return (
+        //adding rows with number values
+      );
+
+calculateWinner(squares) is a helper function that takes in the current
+board as input and determines if there's a winner, it uses a 2D array
+that contains each possible winning combination
+
+      const lines = [
+        [0, 1, 2],
+	[3, 4, 5],
+	[6, 7, 8],
+	[0, 3, 6],
+	[1, 4, 7],
+	[2, 5, 8],
+	[0, 4, 8],
+	[2, 4, 6],
+      ];
+      for (let i=0; i<lines.length; i++) {
+        const [a, b, c] = lines[i];
+	if (squares[a] && squares[a] === squares[b]
+	    && squares[a] === squares[c]) {
+	  return squares[a];
+	}
+      }
+      return null;
